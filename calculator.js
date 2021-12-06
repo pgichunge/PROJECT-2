@@ -1,23 +1,37 @@
- // Create a calculator where the user specifies which action to be taken.
- //calculate the day of the week from a specific date.
- var firstnumber="(CC/4) -2*CC"
-var secondnumber="(5*YY/4) "
-var thirdnumber="(26*(MM+1)/10)"
-var lastnumber="((26*(MM+1)/10)) + DD )"
-var Dayoftheweek=(firstnumber+secondnumber+thirdnumber+lastnumber)%"7"
-console.log[Dayoftheweek]
-// Convert our strings to numbersour strings to numbers
-var firstNumberConverted = parseInt(firstNumber);
-var secondNumberConverted = parseInt(secondNumber);
-
-if (arithmeticOperation == "+") {
-    let result = additionFunction(firstNumberConverted, secondNumberConverted);
-    alert(result);
-} else if (arithmeticOperation == "-") {
-    let result = subtractionFunction(firstNumberConverted, secondNumberConverted);
-    alert(result);
-} else {
-    alert("6");
-      const maleakanname=Kwasi,Kwadwo,Kwabena,Kwaku,Yaw,Kofi,Kwame
-    const femaleakanname=Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama
+function farLeft(CC) {
+    return ((CC / 4) - 2 * CC - 1);
 }
+
+function middle(YY) {
+    return (5 * YY / 4);
+}
+
+function farRight(MM) {
+    return (26 * (MM + 1) / 10);
+}
+
+var birthdayYear = Number(prompt("Which year were you born?"))
+var gender = prompt("What is your gender?")
+
+const farLeftResult = farLeft(10)
+const farRightResult = farRight(10)
+const middleResult = middle(birthdayYear)
+
+var calculationResult = (farLeftResult + middleResult + farRightResult + 10) % 7
+const wholeNumber = calculationResult.toPrecision(1);
+alert(wholeNumber);
+
+// calculationResult = 2
+const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+const femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+
+let result;
+if (gender == "male") {
+    result = maleNames[wholeNumber]
+} else if (gender == "female") {
+    result = femaleNames[wholeNumber]
+} else {
+    alert('Enter a valid gender')
+}
+
+alert(`Your day name is ${result}`, )
