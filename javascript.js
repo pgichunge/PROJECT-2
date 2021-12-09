@@ -31,14 +31,14 @@ const femaleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam
 
 
 // gather user input for
-const birthdaybox=document.getElementbyid("birthday")
+const birthdaybox=document.getElementbyid("birthdate")
 const birthmonthbox=document.getElementbyid("birthmonth")
 const birthyearbox=document.getElementbyid("birthyear")
 const birthgenderbox=document.getElementbyid("gender")
 
  
 //get the elements value
-const birthday=birthdaybox.value;
+const birthday=birthdatebox.value;
 const birthmonth=birthdaymonthbox.value;
 const birthyear=birthyearbox.value;
 const birthgender=birthgenderbox.value;
