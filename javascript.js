@@ -55,6 +55,16 @@ if (allgendersarrays.includes[birthgender]){
 const centuryvar=string (birthyear).substring[0,2]
 const yearvar=string (birthyear).substring[2]
 console.log(century,year)
+let result;
+if (gender == "male") {
+    result = maleNames[wholeNumber]
+} else if (gender == "female") {
+    result = femaleNames[wholeNumber]
+} else {
+    alert('Enter a valid gender')
+}
+
+alert(`Your day name is ${result}`, )
     
 }
 else{

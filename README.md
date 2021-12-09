@@ -14,4 +14,4 @@
 <!-- ABOUT THE PROJECT -->
 ## week 2 project
 
-This is my week 2 project
+This is my week 2 ip
