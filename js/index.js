@@ -61,42 +61,42 @@ function getAkanName() {
     if (myGenderValue == "male" && monthValid && dayValid) {
         switch (dayOfWeekNumber) {
             case 1:
-                document.getElementById('result').textContent = "Wow! You are a Sunday baby: your Akan name is " + maleAkanNames[0];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[0];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 2:
-                document.getElementById('result').textContent = "Wow! You are a Monday baby: your Akan name is " + maleAkanNames[1];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[1];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 3:
-                document.getElementById('result').textContent = "Wow! You are a Tuesday baby: your Akan name is " + maleAkanNames[2];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[2];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 4:
-                document.getElementById('result').textContent = "Wow! You are a Wednesday baby: your Akan name is " + maleAkanNames[3];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[3];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 5:
-                document.getElementById('result').textContent = "Wow! You are a Thursday baby: your Akan name is " + maleAkanNames[4];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[4];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 6:
-                document.getElementById('result').textContent = "Wow! You are a Friday baby: your Akan name is " + maleAkanNames[5];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[5];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 7:
-                document.getElementById('result').textContent = "Wow! You are a Saturday baby: your Akan name is " + maleAkanNames[6];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[6];
                 document.getElementById('display-name').textContent = "See your Akan name heree: ";
                 return false;
                 break;
             case 0:
-                document.getElementById('result').textContent = "Wow! You are a Sunday baby: your Akan name is " + maleAkanNames[0];
+                document.getElementById('result').textContent = "your Akan name is " + maleAkanNames[0];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
@@ -107,48 +107,48 @@ function getAkanName() {
     } else if (myGenderValue == "female" && monthValid && dayValid) {
         switch (dayOfWeekNumber) {
             case 1:
-                document.getElementById('result').textContent = "Wow! You are a Sunday baby: your Akan name is" + femaleAkanNames[0];
+                document.getElementById('result').textContent = "your Akan name is" + femaleAkanNames[0];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 2:
-                document.getElementById('result').textContent = "Wow! You are a Monday baby: your Akan name is " + femaleAkanNames[1];
+                document.getElementById('result').textContent = "your Akan name is " + femaleAkanNames[1];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 alert("Kwadwo");
                 break;
             case 3:
-                document.getElementById('result').textContent = "Wow! You are a Tuesday baby: your Akan name is " + femaleAkanNames[2];
+                document.getElementById('result').textContent = "your Akan name is " + femaleAkanNames[2];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 4:
-                document.getElementById('result').textContent = "Wow! You are a Wednesday baby: your Akan name is " + femaleAkanNames[3];
+                document.getElementById('result').textContent = "your Akan name is " + femaleAkanNames[3];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 5:
-                document.getElementById('result').textContent = "Wow! You are a Thursday baby: your Akan name is " + femaleAkanNames[4];
+                document.getElementById('result').textContent = "your Akan name is " + femaleAkanNames[4];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 6:
-                document.getElementById('result').textContent = "Wow! You are a Friday baby: your Akan name is " + femaleAkanNames[5];
+                document.getElementById('result').textContent = "your Akan name is " + femaleAkanNames[5];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 7:
-                document.getElementById('result').textContent = "Wow! You are a Saturday baby: your Akan name is " + femaleAkanNames[6];
+                document.getElementById('result').textContent = "your Akan name is " + femaleAkanNames[6];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             case 0:
-                document.getElementById('result').textContent = "Wow! You are a Sunday baby: your Akan name is " + femaleAkanNames[0];
+                document.getElementById('result').textContent = "Akan name is " + femaleAkanNames[0];
                 document.getElementById('display-name').textContent = "See your Akan name here: ";
                 return false;
                 break;
             default:
-                alert("ouch! No name for you");
+                alert("ooh  sorry name for you");
         }
     } else {
         alert("Invalid month or day");
