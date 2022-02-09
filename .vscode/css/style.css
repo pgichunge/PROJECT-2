@@ -1,0 +1,85 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+#year-input {
+    border-radius: 6px;
+    width: 65px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+}
+
+#month-input {
+    border-radius: 6px;
+    width: 65px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+}
+
+#day-input {
+    border-radius: 6px;
+    width: 65px;
+    height: 20px;
+    box-shadow: 2px 2px #000000;
+}
+
+#get-name {
+    border-radius: 8px;
+    color: #000000;
+    background-color: green;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px #000000;
+}
+
+#result {
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(41, 27, 167, 0.72);
+    /* height: 500px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    box-shadow: 3px 3px brown;
+    border-radius: 5%;
+}
+
+.research {
+    text-decoration: underline;
+    color: #252323;
+}
+
+.clear {
+    border-radius: 5px;
+    color: hsl(125, 67%, 11%);
+    background-color: rgb(33, 128, 75);
+    text-align: center;
+    border: solid 1px #000000;
+    width: 108px;
+    height: 32px;
+    font-size: 13px;
+    box-shadow: 2px 2px hsl(0, 0%, 5%);
+}
+
+a:hover {
+    color: #6b0032;
+}
